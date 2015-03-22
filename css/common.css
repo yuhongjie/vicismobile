@@ -1,0 +1,28 @@
+input.shopSearchField {
+	position: relative;
+}
+input.shopSearchField:hover {
+	background:url();
+}
+input.gosearch {
+	position: absolute;
+	width: 80px;
+	height: 36px;
+	background-color: transparent;
+	right: 0;
+	top: 0;
+}
+.selectWrapper  select {
+	width: 100%;
+	background-color: #FFFFFF;
+	border: 1px solid #F3F3F3;
+	border-radius: 2px;
+}
+.selectWrapper  select:hover {
+	border-bottom-left-radius:0; 
+	border-bottom-right-radius:0;
+	background-color: #FAFAFA;
+}
+.selectWrapper  select option {
+	border: 0;
+}

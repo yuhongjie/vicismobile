@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<title>手机网站模板|HTML5网站模板|HTML5建站资源分享社区</title>
+<title>微茜糕点--首页</title>
 <!-- meta tags start -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="shopey, premium, mobile, template, HTML, CSS" />
@@ -22,6 +22,7 @@
 <link href="css/hidpi.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/skin.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
 <!-- CSS files end -->
 
 <!-- JavaScript files start -->
@@ -127,7 +128,8 @@
       <div class="shopSearchFormWrapper">
         <form action="#" method="post" id="shopSearchForm">
           <fieldset>
-            <input type="text" value="" id="shopSearchField" class="shopSearchField fieldWithIcon shopSearchFieldIcon" name="shopSearchField" placeholder="search..." />
+            <input type="text" value="" id="shopSearchField" class="shopSearchField fieldWithIcon shopSearchFieldIcon" name="shopSearchField" placeholder="产品搜索..." />
+            <input name="" type="submit" value="" class="gosearch">
           </fieldset>
         </form>
       </div>
@@ -142,21 +144,33 @@
       <!-- slider wrapper ends -->
       
       <div class="textBreakBottom"></div>
-      
+      <div class="selectWrapper">
+        <select id="selectmenu" onchange="self.location.href=options[selectedIndex].value">
+          <option value="index.html" >盒装系列</option>
+          <option>花束系列</option>
+          <option selected="selected">童趣系列</option>
+          <option>特惠系列</option>
+          <option>生日</option>
+          <option>礼物</option>
+          <option>婚礼</option>
+          <option>商务</option>
+          <option>回礼</option>
+        </select>
+      </div>
       <!-- new products start -->
-      <h4 class="sectionTitle">New Products:<a href="" class="sectionTitleLink">More &raquo;</a></h4>
+      <h4 class="sectionTitle">春季新品:<a href="" class="sectionTitleLink">更多 &raquo;</a></h4>
       <div class="homeProductsWrapper">
         <div class="homeProductWrapper"><img src="images/content/homeProduct-1.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">Product #1</span><a href="" class="homePurchaseButton">($5) Buy</a></div>
+          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #1</span><a href="" class="homePurchaseButton">(￥50.00) 购买</a></div>
         </div>
         <div class="homeProductWrapper"><img src="images/content/homeProduct-2.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">Product #2</span><a href="" class="homePurchaseButton">($2) Buy</a></div>
+          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #2</span><a href="" class="homePurchaseButton">(￥20.00) 购买</a></div>
         </div>
         <div class="homeProductWrapper"><img src="images/content/homeProduct-3.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">Product #3</span><a href="" class="homePurchaseButton">($7) Buy</a></div>
+          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #3</span><a href="" class="homePurchaseButton">(￥70.00) 购买</a></div>
         </div>
         <div class="homeProductWrapper"><img src="images/content/homeProduct-4.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">Product #4</span><a href="" class="homePurchaseButton">($4) Buy</a></div>
+          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #4</span><a href="" class="homePurchaseButton">(￥40.00) 购买</a></div>
         </div>
       </div>
       <!-- new products end -->
@@ -164,13 +178,19 @@
       <div class="textBreakBottom"></div>
       
       <!-- recently viewed products start -->
-      <h4 class="sectionTitle">Recently Viewed:<a href="" class="sectionTitleLink">More &raquo;</a></h4>
+      <h4 class="sectionTitle">特色推荐:<a href="" class="sectionTitleLink">More &raquo;</a></h4>
       <div class="homeProductsWrapper">
         <div class="homeProductWrapper"><img src="images/content/homeProduct-1.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">Product #1</span><a href="" class="homePurchaseButton">($5) Buy</a></div>
+          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #1</span><a href="" class="homePurchaseButton">(￥50.00) 购买</a></div>
         </div>
         <div class="homeProductWrapper"><img src="images/content/homeProduct-2.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">Product #2</span><a href="" class="homePurchaseButton">($2) Buy</a></div>
+          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #2</span><a href="" class="homePurchaseButton">(￥20.00) 购买</a></div>
+        </div>
+        <div class="homeProductWrapper"><img src="images/content/homeProduct-1.jpg" alt="">
+          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #1</span><a href="" class="homePurchaseButton">(￥50.00) 购买</a></div>
+        </div>
+        <div class="homeProductWrapper"><img src="images/content/homeProduct-2.jpg" alt="">
+          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #2</span><a href="" class="homePurchaseButton">(￥20.00) 购买</a></div>
         </div>
       </div>
       <!-- recently viewed products end -->
@@ -215,13 +235,15 @@
     
     <div class="footerDecoration"></div>
     <!-- footer wrapper starts -->
-    <div class="footerWrapper"> <span class="copyright">Copyright © 2015&nbsp;<a href="http://www.17sucai.com/" target="_blank">17素材网</a>&nbsp;All rights reserved.</span> </div>
+    <div class="footerWrapper"> <span class="copyright">Copyright © 2015&nbsp;<a href="#" target="_blank">微茜糕点</a>&nbsp;All rights reserved.</span> </div>
     <!-- footer wrapper ends --> 
     
   </div>
   <!-- page wrapper ends --> 
 </div>
 <!-- website wrapper ends -->
+
+
 </body>
 </html>
 
