@@ -413,7 +413,7 @@ input.shoppingCartCheckoutButton {
 }
 .mainLogo {
 	width: 104px;
-	height: 30px;
+	height: 53px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 36px;
@@ -421,7 +421,7 @@ input.shoppingCartCheckoutButton {
 }
 .mainLogo > img {
 	width: 104px;
-	height: 30px;
+	height: 53px;
 }
 .shopSearchFormWrapper {
 	margin-bottom: 36px;
@@ -1042,7 +1042,7 @@ input.checkoutCheckoutButton {
 	text-decoration: none;
 	height: 36px;
 	line-height: 36px;
-	background-color: #333;
+	background-color: #6FC7BC;
 	border-radius: 6px;
 	font-weight: normal;
 }
@@ -1654,7 +1654,7 @@ input.commentSubmitButton, input.commentSubmitButton:hover {
 input.contactSubmitButton, input.contactSubmitButton:hover {
 	height: 36px;
 	line-height: 36px;
-	background-color: #333;
+	background-color: #6FC7BC;
 	padding-left: 12px;
 	padding-right: 12px;
 	float: right;
@@ -1924,3 +1924,39 @@ input.fieldHasError, textarea.fieldHasError {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////// Reset CSS Rules End                                                                                */
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*usermenu*/
+.usermenu li{
+	background-color:#ccc; 
+}
+.usermenu li a{
+	color: #fff;
+}
+.user-account-success a{
+	padding: 0px 10px;
+	color: #fff;
+	background-color:#6FC7BC;  
+}
+.user-account-success a:hover{
+	text-decoration: none;
+}
+/*取消订单*/
+.checkoutCancelProductButton {
+  background: #6FC7BC center center no-repeat;
+  color: #fff;
+  display: block;
+  border-radius: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  float: right;
+  height: 24px;
+  line-height: 24px;
+} 
+/*地址信息*/
+.showaddress a{
+  display: inline;
+  font-size: 16px;
+}
+.showaddress{
+	text-align: right;
+}
