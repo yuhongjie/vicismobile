@@ -282,7 +282,7 @@ input.fieldWithIcon {
 .mainMenuWrapper > li:hover > a {
 }
 .mainMenuWrapper > li.currentPage {
-	background-color: #333;
+	background-color: #73CBC2;
 }
 .mainMenuWrapper > li.currentPage > a {
 	color: #fff;

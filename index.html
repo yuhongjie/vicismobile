@@ -23,6 +23,7 @@
 <link href="css/skin.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/menu-css.css">
 <!-- CSS files end -->
 
 <!-- JavaScript files start -->
@@ -31,6 +32,12 @@
 <script type="text/javascript" src="js/jquery.nivo-slider.min.js"></script>
 <script type="text/javascript" src="js/jquery.colorbox.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/menu_min.js"></script>
+<script type="text/javascript">
+$(document).ready(function (){
+  $(".menu ul li").menu();
+}); 
+</script> 
 <!-- JavaScript files end -->
 </head>
 <body>
@@ -42,24 +49,14 @@
     <div class="mainMenuOuterWrapper"> 
       <!-- main menu wrapper starts -->
       <ul class="mainMenuWrapper">
-        <li class="currentPage"><a href="index.html">Home</a></li>
-        <li><a href="typography.html">About</a> </li>
-        <li><a href="faq.html">FAQ Page</a></li>
-        <li><a href="404.html">404 Page</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="recover.html">Recover Account</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="advancedSearch.html">Advanced Search</a></li>
-        <li><a href="singleProduct.html">Single Product</a></li>
-        <li><a href="checkout.html">Checkout</a></li>
-        <li><a href="portfolioOneColumn.html">Portfolio One</a></li>
-        <li><a href="portfolioTwoColumns.html">Portfolio Two</a></li>
-        <li><a href="portfolioOneColumnFilterable.html">Filterable Portfolio One</a></li>
-        <li><a href="portfolioTwoColumnsFilterable.html">Filterable Portfolio Two</a></li>
-        <li><a href="singleProject.html">Single Portfolio Project</a></li>
-        <li><a href="blog.html">Blog</a> </li>
-        <li><a href="singlePost.html">Single Post</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li class="currentPage"><a href="index.html">首页</a></li>
+        <li><a href="#">系列</a> </li>
+        <li><a href="#">用途</a></li>
+        <li><a href="#">食材</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">配送说明</a></li>
+        <li><a href="blog.html">关于我们</a> </li>
+        <li><a href="contact.html">联系我们</a></li>
       </ul>
       <!-- main menu wrapper ends -->
       <div class="mainMenuBottomDecoration"></div>
@@ -71,39 +68,39 @@
       <fieldset>
         <!-- shopping cart product starts -->
         <div class="shoppingCartProductWrapper"> <a  href="" class="shoppingCartProductImageWrapper"><img src="images/content/shoppingCartProductImage-1.jpg" class="shoppingCartProductImage" alt=""></a>
-          <div class="shoppingCartProductInfoWrapper"> <a href="" class="shoppingCartProductTitle">Product One</a>
+          <div class="shoppingCartProductInfoWrapper"> <a href="" class="shoppingCartProductTitle">微茜糕点</a>
             <div class="shoppingCartProductButtonsWrapper">
               <input type="text" id="shoppingCartProductNumber-1" class="shoppingCartProductNumber" name="product-1" value="1">
-              <span class="shoppingCartProductPrice">$25</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
+              <span class="shoppingCartProductPrice">￥25</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
           </div>
         </div>
         <!-- shopping cart product ends --> 
         
         <!-- shopping cart product starts -->
         <div class="shoppingCartProductWrapper"> <a href="" class="shoppingCartProductImageWrapper"><img src="images/content/shoppingCartProductImage-2.jpg" class="shoppingCartProductImage" alt=""></a>
-          <div class="shoppingCartProductInfoWrapper"> <a href="" class="shoppingCartProductTitle">Product Two</a>
+          <div class="shoppingCartProductInfoWrapper"> <a href="" class="shoppingCartProductTitle">微茜糕点</a>
             <div class="shoppingCartProductButtonsWrapper">
               <input type="text" id="shoppingCartProductNumber-2" class="shoppingCartProductNumber" name="product-2" value="2">
-              <span class="shoppingCartProductPrice">$50</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
+              <span class="shoppingCartProductPrice">￥50</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
           </div>
         </div>
         <!-- shopping cart product ends --> 
         
         <!-- shopping cart product starts -->
         <div class="shoppingCartProductWrapper"> <a  href="" class="shoppingCartProductImageWrapper"><img src="images/content/shoppingCartProductImage-3.jpg" class="shoppingCartProductImage" alt=""></a>
-          <div class="shoppingCartProductInfoWrapper"> <a href="" class="shoppingCartProductTitle">Product Three</a>
+          <div class="shoppingCartProductInfoWrapper"> <a href="" class="shoppingCartProductTitle">微茜糕点III</a>
             <div class="shoppingCartProductButtonsWrapper">
               <input type="text" id="shoppingCartProductNumber-3" class="shoppingCartProductNumber" name="product-3" value="1">
-              <span class="shoppingCartProductPrice">$110</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
+              <span class="shoppingCartProductPrice">$￥110</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
           </div>
         </div>
         <!-- shopping cart product ends --> 
         
         <!-- shopping cart info wrapper starts -->
-        <div class="shoppingCartInfoWrapper"> <span class="shoppingCartProductsNumber">Products: 3</span> <span class="shoppingCartProductsTotal">Total: $235</span> </div>
+        <div class="shoppingCartInfoWrapper"> <span class="shoppingCartProductsNumber">购物车:3件产品</span> <span class="shoppingCartProductsTotal">总共: ￥235</span> </div>
         <!-- shopping cart info wrapper ends -->
         
-        <div class="shoppingCartButtonsWrapper"><a href="" class="shoppingCartEmptyButton">Empty</a>
+        <div class="shoppingCartButtonsWrapper"><a href="" class="shoppingCartEmptyButton">清空购物车</a>
           <input type="submit" value="Checkout" id="shoppingCartCheckoutButton" class="shoppingCartCheckoutButton">
         </div>
       </fieldset>
@@ -145,17 +142,24 @@
       
       <div class="textBreakBottom"></div>
       <div class="selectWrapper">
-        <select id="selectmenu" onchange="self.location.href=options[selectedIndex].value">
-          <option value="index.html" >盒装系列</option>
-          <option>花束系列</option>
-          <option selected="selected">童趣系列</option>
-          <option>特惠系列</option>
-          <option>生日</option>
-          <option>礼物</option>
-          <option>婚礼</option>
-          <option>商务</option>
-          <option>回礼</option>
-        </select>
+        <div class="menu">
+            <ul>
+            <li class="father-li"><a class="" href="javascript:void(0)">产品分类</a>
+                <ul style="display:black;">
+                    <li><a href="#">盒装系列</a></li>
+                    <li><a href="#">花束系列</a></li>
+                    <li><a href="#">童趣系列</a></li>
+                    <li><a href="#">特惠系列</a></li>
+                    <li class="line"></li>
+                    <li><a href="#">生日</a></li>
+                    <li><a href="#">礼品</a></li>
+                    <li><a href="#">婚礼</a></li>
+                    <li><a href="#">商务</a></li>
+                    <li><a href="#">回礼</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
       </div>
       <!-- new products start -->
       <h4 class="sectionTitle">春季新品:<a href="" class="sectionTitleLink">更多 &raquo;</a></h4>
@@ -200,29 +204,31 @@
       <!-- accordion wrapper starts -->
       <div class="accordionWrapper"> 
         <!-- accordion item wrapper starts -->
-        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">How many pages are included?</span></a>
+        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">我如何订一个蛋糕?</span></a>
           <div class="accordionContentWrapper">
             <div class="accordionContent">
-              <p>This template has 18 unique pages.</p>
+              <p>所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。
+                <br>
+
+              所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。</p>
             </div>
           </div>
         </div>
         <!-- accordion item wrapper ends --> 
         <!-- accordion item wrapper starts -->
-        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">How many PSD files do I get?</span></a>
+        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">你的退款和取消政策是什么？</span></a>
           <div class="accordionContentWrapper">
             <div class="accordionContent">
-              <p>Yes, a complete PSD is included for the home page, and many other secondary PSD files used to create all the elements for this template.</p>
+              <p>所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。</p>
             </div>
           </div>
         </div>
         <!-- accordion item wrapper ends --> 
         <!-- accordion item wrapper starts -->
-        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">I need help, what can I do?</span></a>
+        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">下单以后多长时间能收到？</span></a>
           <div class="accordionContentWrapper">
             <div class="accordionContent">
-              <p>A complete guide is included with this template, and all the code is properly commented. All assets are well organized and easy to find.</p>
-              <p>You can also contact us if you have any problems or want us to customize it for you.</p>
+              <p>所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。</p>
             </div>
           </div>
         </div>
