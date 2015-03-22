@@ -26,3 +26,94 @@ input.gosearch {
 .selectWrapper  select option {
 	border: 0;
 }
+.view-mode {
+	width: 30%;
+	height: 30px;
+	float: right;
+	margin-bottom: 12px;
+}
+.view-mode a {
+	display: inline-block;
+	width: 30px;
+	height: 35px;
+	font-size: 20px;
+	color: #E5E5E1;
+	text-align: right;
+	float: right;
+}
+.view-mode a.active {
+	color: #71CBC1;
+}
+.view-mode a:hover {
+	text-decoration: none;
+	color: #71CBC1;
+}
+.bread-nav {
+	height: 33px;
+	float: left;
+	width: 70%;
+}
+
+.bread-nav a {
+	display: inline;
+}
+.bread-nav i {
+padding-left: 8px;
+padding-right: 8px;
+}
+
+
+/*产品列表样式覆盖*/
+.portfolioOneItemWrapper a {
+	display: inline;
+}
+.portfolioOneItemImageWrapper img {
+	width: 30%;
+	float: left;
+	box-sizing:border-box;
+	height: 120px;
+}
+.portfolioOneItemInfoWrapper {
+	width: 70%;
+	height: 84px;
+	box-sizing:border-box;
+	background-color: #f9f9f9;
+	padding-top: 7px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 22px;
+}
+.portfolioOneItemInfoWrapper h4 {
+	margin-bottom: 4px;
+}
+.portfolioOneItemButtonsWrapper {
+	line-height: 36px;
+	background-color: #f6f6f6;
+	width: 70%;
+	float: left;
+	box-sizing: border-box;
+}
+.list-price {
+width: 70px;
+height: 36px;
+line-height: 36px;
+float: left;
+padding-left: 10px;
+color: #7AC144;
+background: #e9e9e9;
+padding-right: 12px;
+font-size: 18px;
+}
+.list-cart {
+	background-image: none;
+	padding-right: 16px;
+}
+.list-cart:hover{
+	background-color: #7AC142;
+	color: #fff;
+}
+
+
+
+/*产品列表样式覆盖end*/
+
