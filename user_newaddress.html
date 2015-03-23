@@ -122,62 +122,71 @@
     
     <!-- page content wrapper starts -->
     <div class="pageContentWrapper"> 
-      
-      <div class="headerBreak headerBreakTitleBottom"></div>
-      
-      <!-- page title starts -->
-      <h3 class="pageTitle">Register</h3>
-      <!-- page title ends -->
-      
-      <p>To be able to purchase our products you must be a registred user. Please complete the form bellow and register for free.</p>
-      <div class="textBreakBoth"></div>
-      
       <!-- register form wrapper starts -->
       <div class="registerFormWrapper">
         <form action="#" method="post" id="registerForm" class="registerForm">
           <fieldset>
             <div class="formFieldWrapper">
-              <label for="registerFirstNameField">First Name:</label>
+              <label for="registerFirstNameField">收货人：</label>
               <input type="text" value="" id="registerFirstNameField" class="registerFirstNameField fieldWithIcon userFieldIcon"	name="registerFirstNameField" />
             </div>
             <div class="formFieldWrapper">
-              <label for="registerLastNameField">Last Name:</label>
-              <input type="text" value="" id="registerLastNameField" class="registerLastNameField fieldWithIcon userFieldIcon" name="registerLastNameField" />
-            </div>
-            <div class="formFieldWrapper">
-              <label for="registerUserNameField">User Name:</label>
-              <input type="text" value="" id="registerUserNameField" class="registerUserNameField fieldWithIcon userFieldIcon" name="registerUserNameField" />
-            </div>
-            <div class="formFieldWrapper">
-              <label for="registerPasswordField">Password:</label>
-              <input type="password" value="" id="registerPasswordField" class="registerPasswordField fieldWithIcon passwordFieldIcon" name="registerPasswordField" />
-            </div>
-            <div class="formFieldWrapper">
-              <label for="registerEmailField">Email:</label>
-              <input type="text" value="" id="registerEmailField" class="registerEmailField fieldWithIcon emailFieldIcon" name="registerEmailField" />
-            </div>
-            <div class="formFieldWrapper">
-              <label for="registerPhoneField">Phone:</label>
+              <label for="registerPhoneField">联系电话:</label>
               <input type="text" value="" id="registerPhoneField" class="registerPhoneField fieldWithIcon phoneFieldIcon" name="registerPhoneField" />
             </div>
             <div class="formFieldWrapper">
-              <label for="registerCountryField">Country:</label>
-              <input type="text" value="" id="registerCountryField" class="registerCountryField fieldWithIcon addressFieldIcon" name="registerCountryField" />
+              <label for="registerEmailField">电子邮箱:</label>
+              <input type="text" value="" id="registerEmailField" class="registerEmailField fieldWithIcon emailFieldIcon" name="registerEmailField" />
             </div>
+            <!-- 省份 -->
+              <!-- drop-down starts -->
+              <label style="margin-bottom:13px;" for="advancedSearchTermsField">省份:</label>
+              <div class="drop-downWrapper">
+                  <span class="drop-downText" data-label="省份"></span>
+                <div class="drop-downItemsWrapper"> 
+                  <span class="drop-downItem" data-value="all">河北</span>
+                  <span class="drop-downItem" data-value="one">河南</span>
+                  <span class="drop-downItem" data-value="two">贵州</span>
+                  <span class="drop-downItem" data-value="three">湖北</span>
+                </div>
+                <input type="hidden" name="drop-downField" class="drop-downField" value="all">
+              </div>
+              <!-- 城市 -->
+              <!-- drop-down starts -->
+              <label style="margin-bottom:13px;" for="advancedSearchTermsField">城市:</label>
+              <div class="drop-downWrapper">
+                  <span class="drop-downText" data-label="城市"></span>
+                <div class="drop-downItemsWrapper"> 
+                  <span class="drop-downItem" data-value="all">石家庄</span>
+                  <span class="drop-downItem" data-value="one">保定</span>
+                  <span class="drop-downItem" data-value="two">廊坊</span>
+                  <span class="drop-downItem" data-value="three">沧州</span>
+                </div>
+                <input type="hidden" name="drop-downField" class="drop-downField" value="all">
+              </div>
+              <!-- 区域 -->
+              <!-- drop-down starts -->
+              <label style="margin-bottom:13px;" for="advancedSearchTermsField">区域:</label>
+              <div class="drop-downWrapper">
+                  <span class="drop-downText" data-label="区域"></span>
+                <div class="drop-downItemsWrapper"> 
+                  <span class="drop-downItem" data-value="all"></span>
+                  <span class="drop-downItem" data-value="one">长安区</span>
+                  <span class="drop-downItem" data-value="two">桥东区</span>
+                  <span class="drop-downItem" data-value="three">桥西区</span>
+                </div>
+                <input type="hidden" name="drop-downField" class="drop-downField" value="all">
+              </div>
+              <div class="formFieldWrapper">
+                <label for="registerAddressField">详细地址:</label>
+                <input type="text" value="" id="registerAddressField" class="registerAddressField fieldWithIcon addressFieldIcon" name="registerAddressField" />
+              </div>
             <div class="formFieldWrapper">
-              <label for="registerCityField">City:</label>
-              <input type="text" value="" id="registerCityField" class="registerCityField fieldWithIcon addressFieldIcon" name="registerCityField" />
+              <label for="registerPhoneField">邮政编码:</label>
+              <input type="text" value="" id="registerPhoneField" class="registerPhoneField fieldWithIcon phoneFieldIcon" name="registerPhoneField" />
             </div>
-            <div class="formFieldWrapper">
-              <label for="registerZipField">ZIP Code:</label>
-              <input type="text" value="" id="registerZipField" class="registerZipField fieldWithIcon addressFieldIcon" name="registerZipField" />
-            </div>
-            <div class="formFieldWrapper">
-              <label for="registerAddressField">Address:</label>
-              <input type="text" value="" id="registerAddressField" class="registerAddressField fieldWithIcon addressFieldIcon" name="registerAddressField" />
-            </div>
-            <div class="registerButtonsWrapper"> <a href="login.html" class="registerLoginButton">Login</a> <a href="recover.html" class="registerRecoverButton">Recover</a>
-              <input type="submit" value="Register" class="registerButton" id="registerButton">
+            <div class="registerButtonsWrapper"> 
+              <input type="submit" value="新增收货地址" onclick="javascript:window.location.href='user_newaddress_success.html' " class="registerButton" id="registerButton">
             </div>
           </fieldset>
         </form>
