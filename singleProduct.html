@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<title>手机网站模板|HTML5网站模板|HTML5建站资源分享社区</title>
+<title>产品详情</title>
 <!-- meta tags start -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="shopey, premium, mobile, template, HTML, CSS" />
@@ -22,6 +22,8 @@
 <link href="css/hidpi.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/skin.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
+
 <!-- CSS files end -->
 
 <!-- JavaScript files start -->
@@ -127,7 +129,8 @@
       <div class="shopSearchFormWrapper">
         <form action="#" method="post" id="shopSearchForm">
           <fieldset>
-            <input type="text" value="" id="shopSearchField" class="shopSearchField fieldWithIcon shopSearchFieldIcon" name="shopSearchField" placeholder="search..." />
+            <input type="text" value="" id="shopSearchField" class="shopSearchField fieldWithIcon shopSearchFieldIcon" name="shopSearchField" placeholder="产品搜索..." />
+            <input name="" type="submit" value="" class="gosearch">
           </fieldset>
         </form>
       </div>
@@ -136,7 +139,7 @@
       <div class="textBreakBottom"></div>
       
       <!-- page title starts -->
-      <h3 class="pageTitle">Single Product Page</h3>
+      <h3 class="pageTitle">产品详情</h3>
       <!-- page title ends --> 
       
       <!-- product gallery wrapper starts -->
@@ -151,62 +154,36 @@
       <!-- product gallery wrapper ends -->
       
       <div class="pageBreak"></div>
-      <a href="" class="singleProductPurchaseButton">($5) Add To Cart</a> 
-      
+      <div class="drop-downWrapper"> <span class="drop-downText" data-label="选择口味">选择口味</span>
+        <div class="drop-downItemsWrapper"> <span class="drop-downItem" data-value="all">咖啡</span><span class="drop-downItem" data-value="yes">巧克力</span><span class="drop-downItem" data-value="no">牛奶</span> </div>
+        <input type="hidden" name="drop-downField" class="drop-downField" value="all">
+      </div>
+      <div class="drop-downWrapper"> <span class="drop-downText" data-label="选择数量">选择数量</span>
+        <div class="drop-downItemsWrapper">
+        <span class="drop-downItem" data-value="all">1</span>
+        <span class="drop-downItem" data-value="yes">2</span>
+        <span class="drop-downItem" data-value="no">3</span>
+        <span class="drop-downItem" data-value="no">4</span>
+        <span class="drop-downItem" data-value="no">6</span>
+        <span class="drop-downItem" data-value="no">8</span>
+        <span class="drop-downItem" data-value="no">10</span> </div>
+        <input type="hidden" name="drop-downField" class="drop-downField" value="all">
+      </div>
+      <a href="" class="singleProductPurchaseButton">(￥50.00)加入购物车</a> 
+      <a href="" class="singleProductPurchaseButton">添加到收藏</a> 
       <!-- product info accordions start -->
       <div class="accordionWrapper"> 
         <!-- accordion item wrapper starts -->
-        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">Specifications</span></a>
+        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">详细信息</span></a>
           <div class="accordionContentWrapper">
             <div class="accordionContent">
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-              <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+              <p>关于提拉米苏的由来，有一个温馨的故事：二战时期，一个意大利士兵要出征了，可是家里已经什么都没有了，爱他的妻子为了给他准备干粮，把家里所有能吃的饼干、面包做进了一个糕点里，那个糕点就叫提拉米苏。每当这个士兵在战场上吃到提拉米苏就会想起他的家，想起家中心爱的人。 
+              提拉米苏，Tiramisu，在意大利语里，有“带我走”的意思，带走得不只是美味，还有爱和幸福。 </p>
             </div>
           </div>
         </div>
         <!-- accordion item wrapper ends --> 
         <!-- accordion item wrapper starts -->
-        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">Reviews</span></a>
-          <div class="accordionContentWrapper">
-            <div class="accordionContent"> 
-              <!-- review starts -->
-              <div class="quoteWrapper productReviewWrapper"> <a href="" class="quoteAvatar"><img src="images/common/commentAvatarBg.png" alt=""></a>
-                <blockquote>
-                  <p>"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                  <cite>- John Doe</cite></blockquote>
-              </div>
-              <!-- review ends --> 
-              <!-- review starts -->
-              <div class="quoteWrapper productReviewWrapper"> <a href="" class="quoteAvatar"><img src="images/common/commentAvatarBg.png" alt=""></a>
-                <blockquote>
-                  <p>"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                  <cite>- John Doe</cite></blockquote>
-              </div>
-              <!-- review ends -->
-              <div class="textBreakBottom"></div>
-              <!-- review form starts -->
-              <h4 class="productReviewTitle">Write A Review:</h4>
-              <form class="productReviewForm" action="#" method="post" id="productReviewForm">
-                <fieldset>
-                  <div class="formFieldWrapper">
-                    <label for="productReviewNameField">Name:</label>
-                    <input type="text" value="" id="productReviewNameField" class="productReviewNameField fieldWithIcon userFieldIcon" name="productReviewNameField" />
-                  </div>
-                  <div class="formFieldWrapper">
-                    <label for="productReviewEmailField">Email:</label>
-                    <input type="text" value="" id="productReviewEmailField" class="productReviewEmailField fieldWithIcon emailFieldIcon" name="productReviewEmailField" />
-                  </div>
-                  <div class="formTextareaWrapper">
-                    <label for="produtReviewMessageTextarea">Message:</label>
-                    <textarea name="produtReviewMessageTextarea" class="produtReviewTextarea  textareaWithIcon messageFieldIcon" id="produtReviewMessageTextarea" data-dummy=""></textarea>
-                  </div>
-                  <input type="submit" class="buttonWrapper produtReviewSubmitButton" id="produtReviewSubmitButton" value="Submit">
-                </fieldset>
-              </form>
-              <!-- review form endss --> 
-            </div>
-          </div>
-        </div>
         <!-- accordion item wrapper ends --> 
       </div>
       <!-- product info accordions end --> 

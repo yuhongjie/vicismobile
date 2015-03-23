@@ -65,17 +65,21 @@ padding-right: 8px;
 
 /*产品列表样式覆盖*/
 .portfolioOneItemWrapper a {
-	display: inline;
+	display: inline-block;
+	width: 34%;
+	overflow: hidden;
+	float: left;
 }
 .portfolioOneItemImageWrapper img {
-	width: 30%;
+	width: 100px;
 	float: left;
 	box-sizing:border-box;
-	height: 120px;
+	height: 80px;
 }
 .portfolioOneItemInfoWrapper {
-	width: 70%;
-	height: 84px;
+	width:64%;
+	height: 80px;
+	float: right;
 	box-sizing:border-box;
 	background-color: #f9f9f9;
 	padding-top: 7px;
@@ -85,6 +89,17 @@ padding-right: 8px;
 }
 .portfolioOneItemInfoWrapper h4 {
 	margin-bottom: 4px;
+}
+.portfolioOneItemInfoWrapper h4 a {
+	width: 100%;
+	font-weight: bold;
+}
+.portfolioOneItemInfoWrapper span.l-price {
+	color: #39998F;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-right: 7px;	
 }
 .portfolioOneItemButtonsWrapper {
 	line-height: 36px;
@@ -117,3 +132,8 @@ font-size: 18px;
 
 /*产品列表样式覆盖end*/
 
+
+.newpwdsuc {
+	color: #fff;
+	width: 100%;
+}

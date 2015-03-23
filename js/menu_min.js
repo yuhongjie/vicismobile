@@ -4,8 +4,8 @@
         item,
         httpAdress;
         b = jQuery.extend({
-            Speed: 220,
-            autostart: 1,
+            Speed: 100,
+            autostart: 0,
             autohide: 1
         },
         b);
