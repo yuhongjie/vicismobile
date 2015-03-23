@@ -1966,3 +1966,9 @@ height: 36px;
 padding-bottom: 24px;
 padding-top: 24px;
 }
+/*通知页面*/
+.infopageTitle {
+  padding-bottom: 22px;
+  margin-top: 2px;
+  margin-bottom: 23px;
+}
