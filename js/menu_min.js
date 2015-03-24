@@ -49,3 +49,9 @@
         }
     }
 })(jQuery);
+
+$(document).ready(function (){
+  $(".menu ul li ul li").click(function (){
+    $(".menu ul li ul").slideUp('fast');
+  });
+}); 
