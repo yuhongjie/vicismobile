@@ -391,13 +391,25 @@ input.shoppingCartCheckoutButton {
 	text-decoration: none;
 	height: 36px;
 	line-height: 36px;
+	background-color: #6FC7BC;
+	border-radius: 6px;
+	font-weight: normal;
+}
+input.buttonCommenButton {
+	float: right;
+	width: 96px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	height: 36px;
+	line-height: 36px;
 	background-color: #1cbbb4;
 	border-radius: 6px;
 	font-weight: normal;
 }
 .shoppingCartEmptyButton {
 	float: left;
-	width: 65px;
+	width: 76px;
 	text-align: center;
 	color: #73CBC2;
 	text-decoration: none;
@@ -1928,7 +1940,7 @@ input.fieldHasError, textarea.fieldHasError {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*usermenu*/
 .usermenu li{
-	background-color:#ccc; 
+	background-color:#6FC7BC; 
 }
 .usermenu li a{
 	color: #fff;
@@ -1990,6 +2002,7 @@ line-height: 24px;
 /*配送地址*/
 .addressButton {
 float: right;
+width: 96px;
 text-align: center;
 color: #fff;
 text-decoration: none;
@@ -1998,4 +2011,29 @@ line-height: 36px;
 background-color: #1cbbb4;
 border-radius: 6px;
 font-weight: normal;
+}
+/*用户中心*/
+.user-name{
+	float: left;
+}
+.user-account-edit{
+	margin-left: 10px;
+	float: left;
+	font-style: normal !important;
+}
+.user-center-menu{
+
+}
+.user-center-menu>ul>li{
+	float: left;
+	list-style: none;
+}
+.user-pageTitle {
+	padding-bottom: 10px;
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+.user-center-p{
+	padding: 10px;
+	text-align: center;
 }

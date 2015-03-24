@@ -1,257 +1,533 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-<title>微茜糕点--首页</title>
-<!-- meta tags start -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Keywords" content="shopey, premium, mobile, template, HTML, CSS" />
-<meta name="Description" content="Premium mobile HTML/CSS template." />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<!-- meta tags end -->
-<!-- favorite icon starts -->
-<link rel="shortcut icon" href="images/common/favicon.ico" type="image/x-icon" />
-<!-- favorite icon ends -->
-<!-- CSS files start -->
-<link href="css/framework.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/colorbox.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/elements.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/hidpi.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/skin.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" type="text/css" href="css/menu-css.css">
-<!-- CSS files end -->
-
-<!-- JavaScript files start -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/effects.jquery-ui.min.js"></script>
-<script type="text/javascript" src="js/jquery.nivo-slider.min.js"></script>
-<script type="text/javascript" src="js/jquery.colorbox.min.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-<script type="text/javascript" src="js/menu_min.js"></script>
-<script type="text/javascript">
-$(document).ready(function (){
-  $(".menu ul li").menu();
-}); 
-</script> 
-<!-- JavaScript files end -->
-</head>
-<body>
-<!-- website wrapper starts -->
-<div class="websiteWrapper"> 
-  <!-- page wrapper starts -->
-  <div class="pageWrapper homePageWrapper"> 
-    <!-- main menu outer wrapper starts -->
-    <div class="mainMenuOuterWrapper"> 
-      <!-- main menu wrapper starts -->
-      <ul class="mainMenuWrapper">
-        <li class="currentPage"><a href="index.html">首页</a></li>
-        <li><a href="portfolioTwoColumns.html">系列</a> </li>
-        <li><a href="portfolioTwoColumns1.html">用途</a></li>
-        <li><a href="food.html">食材</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="instruct.html">配送说明</a></li>
-        <li><a href="aboutus.html">关于我们</a> </li>
-        <li><a href="contact.html">联系我们</a></li>
-        <li><a href="advancedSearch.html">详细搜索</a></li>
-      </ul>
-      <!-- main menu wrapper ends -->
-      <div class="mainMenuBottomDecoration"></div>
-    </div>
-    <!-- main menu outer wrapper ends --> 
-    
-    <!-- shopping cart wrapper start -->
-    <form id="shoppingCartWrapper" class="shoppingCartWrapper" action="#" method="post">
-      <fieldset>
-        <!-- shopping cart product starts -->
-        <div class="shoppingCartProductWrapper"> <a  href="singleProduct.html" class="shoppingCartProductImageWrapper"><img src="images/content/shoppingCartProductImage-1.jpg" class="shoppingCartProductImage" alt=""></a>
-          <div class="shoppingCartProductInfoWrapper"> <a href="singleProduct.html" class="shoppingCartProductTitle">微茜糕点</a>
-            <div class="shoppingCartProductButtonsWrapper">
-              <input type="text" id="shoppingCartProductNumber-1" class="shoppingCartProductNumber" name="product-1" value="1">
-              <span class="shoppingCartProductPrice">￥25</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
+  
+  <head>
+    <title>
+      薇茜糕点--首页
+    </title>
+    <!-- meta tags start -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="shopey, premium, mobile, template, HTML, CSS"
+    />
+    <meta name="Description" content="Premium mobile HTML/CSS template." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <!-- meta tags end -->
+    <!-- favorite icon starts -->
+    <link rel="shortcut icon" href="images/common/favicon.ico" type="image/x-icon"
+    />
+    <!-- favorite icon ends -->
+    <!-- CSS files start -->
+    <link href="css/framework.css" rel="stylesheet" type="text/css" media="all"
+    />
+    <link href="css/colorbox.css" rel="stylesheet" type="text/css" media="all"
+    />
+    <link href="css/elements.css" rel="stylesheet" type="text/css" media="all"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"
+    />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen"
+    />
+    <link href="css/hidpi.css" rel="stylesheet" type="text/css" media="screen"
+    />
+    <link href="css/skin.css" rel="stylesheet" type="text/css" media="all"
+    />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"
+    />
+    <link href="css/common.css" rel="stylesheet" type="text/css" media="all"
+    />
+    <link rel="stylesheet" type="text/css" href="css/menu-css.css">
+    <!-- CSS files end -->
+    <!-- JavaScript files start -->
+    <script type="text/javascript" src="js/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="js/effects.jquery-ui.min.js">
+    </script>
+    <script type="text/javascript" src="js/jquery.nivo-slider.min.js">
+    </script>
+    <script type="text/javascript" src="js/jquery.colorbox.min.js">
+    </script>
+    <script type="text/javascript" src="js/custom.js">
+    </script>
+    <script type="text/javascript" src="js/menu_min.js">
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".menu ul li").menu();
+      });
+    </script>
+    <!-- JavaScript files end -->
+  </head>
+  
+  <body>
+    <!-- website wrapper starts -->
+    <div class="websiteWrapper">
+      <!-- page wrapper starts -->
+      <div class="pageWrapper homePageWrapper">
+        <!-- main menu outer wrapper starts -->
+        <div class="mainMenuOuterWrapper">
+          <!-- main menu wrapper starts -->
+          <ul class="mainMenuWrapper">
+            <li class="currentPage">
+              <a href="index.html">
+                首页
+              </a>
+            </li>
+            <li>
+              <a href="portfolioTwoColumns.html">
+                系列
+              </a>
+            </li>
+            <li>
+              <a href="portfolioTwoColumns1.html">
+                用途
+              </a>
+            </li>
+            <li>
+              <a href="food.html">
+                食材
+              </a>
+            </li>
+            <li>
+              <a href="faq.html">
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a href="instruct.html">
+                配送说明
+              </a>
+            </li>
+            <li>
+              <a href="aboutus.html">
+                关于我们
+              </a>
+            </li>
+            <li>
+              <a href="contact.html">
+                联系我们
+              </a>
+            </li>
+            <li>
+              <a href="advancedSearch.html">
+                详细搜索
+              </a>
+            </li>
+          </ul>
+          <!-- main menu wrapper ends -->
+          <div class="mainMenuBottomDecoration">
           </div>
         </div>
-        <!-- shopping cart product ends --> 
-        
-        <!-- shopping cart product starts -->
-        <div class="shoppingCartProductWrapper"> <a href="singleProduct.html" class="shoppingCartProductImageWrapper"><img src="images/content/shoppingCartProductImage-2.jpg" class="shoppingCartProductImage" alt=""></a>
-          <div class="shoppingCartProductInfoWrapper"> <a href="singleProduct.html" class="shoppingCartProductTitle">微茜糕点</a>
-            <div class="shoppingCartProductButtonsWrapper">
-              <input type="text" id="shoppingCartProductNumber-2" class="shoppingCartProductNumber" name="product-2" value="2">
-              <span class="shoppingCartProductPrice">￥50</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
-          </div>
-        </div>
-        <!-- shopping cart product ends --> 
-        
-        <!-- shopping cart product starts -->
-        <div class="shoppingCartProductWrapper"> <a  href="singleProduct.html" class="shoppingCartProductImageWrapper"><img src="images/content/shoppingCartProductImage-3.jpg" class="shoppingCartProductImage" alt=""></a>
-          <div class="shoppingCartProductInfoWrapper"> <a href="singleProduct.html" class="shoppingCartProductTitle">微茜糕点III</a>
-            <div class="shoppingCartProductButtonsWrapper">
-              <input type="text" id="shoppingCartProductNumber-3" class="shoppingCartProductNumber" name="product-3" value="1">
-              <span class="shoppingCartProductPrice">￥110</span><a href="" class="shoppingCartRemoveProductButton"></a> </div>
-          </div>
-        </div>
-        <!-- shopping cart product ends --> 
-        
-        <!-- shopping cart info wrapper starts -->
-        <div class="shoppingCartInfoWrapper"> <span class="shoppingCartProductsNumber">购物车:3件产品</span> <span class="shoppingCartProductsTotal">总共: ￥185</span> </div>
-        <!-- shopping cart info wrapper ends -->
-        
-        <div class="shoppingCartButtonsWrapper"><a href="" class="shoppingCartEmptyButton">清空购物车</a>
-          <a href="" class="shoppingCartEmptyButton">更新购物车</a>
-          <input type="button" value="去付款" onclick="javascript:window.location.href='checkout.html' "  class="shoppingCartCheckoutButton">
-        </div>
-      </fieldset>
-    </form>
-    <!-- shopping cart wrapper ends --> 
-    
-    <!-- header outer wrapper starts -->
-    <div class="headerOuterWrapper">
-      <div class="headerWrapper"> <a href="user_center.html" class="accountButton"></a><a href="" class="shoppingCartButton"></a><a href="" class="mainMenuButton"></a></div>
-      <div class="headerDecoration"></div>
-      
-      <!-- main logo starts --> 
-      <a href="" class="mainLogo"><img src="images/common/mainLogo.png" alt="" /></a> 
-      <!-- main logo ends --> 
-    </div>
-    <!-- header outer wrapper ends --> 
-    
-    <!-- page content wrapper starts -->
-    <div class="pageContentWrapper"> 
-      
-      <!-- shop search form wrapper starts -->
-      <div class="shopSearchFormWrapper">
-        <form action="#" method="post" id="shopSearchForm">
+        <!-- main menu outer wrapper ends -->
+        <!-- shopping cart wrapper start -->
+        <form id="shoppingCartWrapper" class="shoppingCartWrapper" action="#"
+        method="post">
           <fieldset>
-            <input type="text" value="" id="shopSearchField" class="shopSearchField fieldWithIcon shopSearchFieldIcon" name="shopSearchField" placeholder="产品搜索..." />
-            <input name="" type="submit" value="" class="gosearch">
+            <!-- shopping cart product starts -->
+            <div class="shoppingCartProductWrapper">
+              <a href="singleProduct.html" class="shoppingCartProductImageWrapper">
+                <img src="images/content/shoppingCartProductImage-1.jpg" class="shoppingCartProductImage"
+                alt="">
+              </a>
+              <div class="shoppingCartProductInfoWrapper">
+                <a href="singleProduct.html" class="shoppingCartProductTitle">
+                  微茜糕点
+                </a>
+                <div class="shoppingCartProductButtonsWrapper">
+                  <input type="text" id="shoppingCartProductNumber-1" class="shoppingCartProductNumber"
+                  name="product-1" value="1">
+                  <span class="shoppingCartProductPrice">
+                    ￥25
+                  </span>
+                  <a href="" class="shoppingCartRemoveProductButton">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- shopping cart product ends -->
+            <!-- shopping cart product starts -->
+            <div class="shoppingCartProductWrapper">
+              <a href="singleProduct.html" class="shoppingCartProductImageWrapper">
+                <img src="images/content/shoppingCartProductImage-2.jpg" class="shoppingCartProductImage"
+                alt="">
+              </a>
+              <div class="shoppingCartProductInfoWrapper">
+                <a href="singleProduct.html" class="shoppingCartProductTitle">
+                  微茜糕点
+                </a>
+                <div class="shoppingCartProductButtonsWrapper">
+                  <input type="text" id="shoppingCartProductNumber-2" class="shoppingCartProductNumber"
+                  name="product-2" value="2">
+                  <span class="shoppingCartProductPrice">
+                    ￥50
+                  </span>
+                  <a href="" class="shoppingCartRemoveProductButton">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- shopping cart product ends -->
+            <!-- shopping cart product starts -->
+            <div class="shoppingCartProductWrapper">
+              <a href="singleProduct.html" class="shoppingCartProductImageWrapper">
+                <img src="images/content/shoppingCartProductImage-3.jpg" class="shoppingCartProductImage"
+                alt="">
+              </a>
+              <div class="shoppingCartProductInfoWrapper">
+                <a href="singleProduct.html" class="shoppingCartProductTitle">
+                  微茜糕点III
+                </a>
+                <div class="shoppingCartProductButtonsWrapper">
+                  <input type="text" id="shoppingCartProductNumber-3" class="shoppingCartProductNumber"
+                  name="product-3" value="1">
+                  <span class="shoppingCartProductPrice">
+                    ￥110
+                  </span>
+                  <a href="" class="shoppingCartRemoveProductButton">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- shopping cart product ends -->
+            <!-- shopping cart info wrapper starts -->
+            <div class="shoppingCartInfoWrapper">
+              <span class="shoppingCartProductsNumber">
+                购物车:3件产品
+              </span>
+              <span class="shoppingCartProductsTotal">
+                总共: ￥185
+              </span>
+            </div>
+            <!-- shopping cart info wrapper ends -->
+            <div class="shoppingCartButtonsWrapper">
+              <a href="" class="shoppingCartEmptyButton">
+                清空购物车
+              </a>
+              <a href="" class="shoppingCartEmptyButton">
+                更新购物车
+              </a>
+              <input type="button" value="去付款" onclick="javascript:window.location.href='checkout.html' "
+              class="shoppingCartCheckoutButton">
+            </div>
           </fieldset>
         </form>
-      </div>
-      <!-- shop search form wrapper ends --> 
-      
-      <!-- slider wrapper starts -->
-      <div class="sliderOuterWrapper">
-        <div class="sliderWrapper">
-          <div class="mainSlider" id="mainSlider"> <a href=""><img src="images/content/slide-1.jpg" alt="" /></a> <a href=""><img src="images/content/slide-2.jpg" alt="" /></a><a href=""><img src="images/content/slide-3.jpg" alt="" /></a> </div>
+        <!-- shopping cart wrapper ends -->
+        <!-- header outer wrapper starts -->
+        <div class="headerOuterWrapper">
+          <div class="headerWrapper">
+            <a href="user_center.html" class="accountButton">
+            </a>
+            <a href="" class="shoppingCartButton">
+            </a>
+            <a href="" class="mainMenuButton">
+            </a>
+          </div>
+          <div class="headerDecoration">
+          </div>
+          <!-- main logo starts -->
+          <a href="" class="mainLogo">
+            <img src="images/common/mainLogo.png" alt="" />
+          </a>
+          <!-- main logo ends -->
         </div>
-        <a href="" class="sliderControl previousSlideButton"></a> <a href="" class="sliderControl nextSlideButton"></a> </div>
-      <!-- slider wrapper ends -->
-      
-      <div class="textBreakBottom"></div>
-      <div class="selectWrapper">
-        <div class="menu">
-            <ul>
-            <li class="father-li"><a class="" href="javascript:void(0)">产品分类</a>
-                <ul style="display:black;">
-                    <li><a href="portfolioTwoColumns.html">全部系列</a></li>
-                    <li><a href="portfolioTwoColumns.html">盒装系列</a></li>
-                    <li><a href="portfolioTwoColumns.html">花束系列</a></li>
-                    <li><a href="portfolioTwoColumns.html">童趣系列</a></li>
-                    <li><a href="portfolioTwoColumns.html">特惠系列</a></li>
-                    <li class="line"></li>
-                    <li><a href="portfolioTwoColumns.html">全部用途</a></li>
-                    <li><a href="portfolioTwoColumns.html">生日</a></li>
-                    <li><a href="portfolioTwoColumns.html">礼品</a></li>
-                    <li><a href="portfolioTwoColumns.html">婚礼</a></li>
-                    <li><a href="portfolioTwoColumns.html">商务</a></li>
-                    <li><a href="portfolioTwoColumns.html">回礼</a></li>
-                </ul>
-            </li>
-        </ul>
-        </div>
-      </div>
-      <!-- new products start -->
-      <h4 class="sectionTitle">春季新品:<a href="" class="sectionTitleLink">更多 &raquo;</a></h4>
-      <div class="homeProductsWrapper">
-        <div class="homeProductWrapper"><img src="images/content/homeProduct-1.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #1</span><a href="" class="homePurchaseButton">(￥50.00) 购买</a></div>
-        </div>
-        <div class="homeProductWrapper"><img src="images/content/homeProduct-2.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #2</span><a href="" class="homePurchaseButton">(￥20.00) 购买</a></div>
-        </div>
-        <div class="homeProductWrapper"><img src="images/content/homeProduct-3.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #3</span><a href="" class="homePurchaseButton">(￥70.00) 购买</a></div>
-        </div>
-        <div class="homeProductWrapper"><img src="images/content/homeProduct-4.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #4</span><a href="" class="homePurchaseButton">(￥40.00) 购买</a></div>
-        </div>
-      </div>
-      <!-- new products end -->
-      
-      <div class="textBreakBottom"></div>
-      
-      <!-- recently viewed products start -->
-      <h4 class="sectionTitle">特色推荐:<a href="" class="sectionTitleLink">More &raquo;</a></h4>
-      <div class="homeProductsWrapper">
-        <div class="homeProductWrapper"><img src="images/content/homeProduct-1.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #1</span><a href="" class="homePurchaseButton">(￥50.00) 购买</a></div>
-        </div>
-        <div class="homeProductWrapper"><img src="images/content/homeProduct-2.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #2</span><a href="" class="homePurchaseButton">(￥20.00) 购买</a></div>
-        </div>
-        <div class="homeProductWrapper"><img src="images/content/homeProduct-1.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #1</span><a href="" class="homePurchaseButton">(￥50.00) 购买</a></div>
-        </div>
-        <div class="homeProductWrapper"><img src="images/content/homeProduct-2.jpg" alt="">
-          <div class="homeProductInfoWrapper"><span class="homeProductTitle">产品 #2</span><a href="" class="homePurchaseButton">(￥20.00) 购买</a></div>
-        </div>
-      </div>
-      <!-- recently viewed products end -->
-      
-      <div class="pageBreak"></div>
-      
-      <!-- accordion wrapper starts -->
-      <div class="accordionWrapper"> 
-        <!-- accordion item wrapper starts -->
-        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">我如何订一个蛋糕?</span></a>
-          <div class="accordionContentWrapper">
-            <div class="accordionContent">
-              <p>所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。
-                <br>
-
-              所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。</p>
+        <!-- header outer wrapper ends -->
+        <!-- page content wrapper starts -->
+        <div class="pageContentWrapper">
+          <!-- shop search form wrapper starts -->
+          <div class="shopSearchFormWrapper">
+            <form action="#" method="post" id="shopSearchForm">
+              <fieldset>
+                <input type="text" value="" id="shopSearchField" class="shopSearchField fieldWithIcon shopSearchFieldIcon"
+                name="shopSearchField" placeholder="产品搜索..." />
+                <input name="" type="submit" value="" class="gosearch">
+              </fieldset>
+            </form>
+          </div>
+          <!-- shop search form wrapper ends -->
+          <!-- slider wrapper starts -->
+          <div class="sliderOuterWrapper">
+            <div class="sliderWrapper">
+              <div class="mainSlider" id="mainSlider">
+                <a href="">
+                  <img src="images/content/slide-1.jpg" alt="" />
+                </a>
+                <a href="">
+                  <img src="images/content/slide-2.jpg" alt="" />
+                </a>
+                <a href="">
+                  <img src="images/content/slide-3.jpg" alt="" />
+                </a>
+              </div>
+            </div>
+            <a href="" class="sliderControl previousSlideButton">
+            </a>
+            <a href="" class="sliderControl nextSlideButton">
+            </a>
+          </div>
+          <!-- slider wrapper ends -->
+          <div class="textBreakBottom">
+          </div>
+          <div class="selectWrapper">
+            <div class="menu">
+              <ul>
+                <li class="father-li">
+                  <a class="" href="javascript:void(0)">
+                    产品分类
+                  </a>
+                  <ul style="display:black;">
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        全部系列
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        盒装系列
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        花束系列
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        童趣系列
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        特惠系列
+                      </a>
+                    </li>
+                    <li class="line">
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        全部用途
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        生日
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        礼品
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        婚礼
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        商务
+                      </a>
+                    </li>
+                    <li>
+                      <a href="portfolioTwoColumns.html">
+                        回礼
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
-        <!-- accordion item wrapper ends --> 
-        <!-- accordion item wrapper starts -->
-        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">你的退款和取消政策是什么？</span></a>
-          <div class="accordionContentWrapper">
-            <div class="accordionContent">
-              <p>所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。</p>
+          <!-- new products start -->
+          <h4 class="sectionTitle">
+            春季新品:
+            <a href="portfolioTwoColumns1.html" class="sectionTitleLink">
+              更多 &raquo;
+            </a>
+          </h4>
+          <div class="homeProductsWrapper">
+            <div class="homeProductWrapper">
+                <img src="images/content/homeProduct-1.jpg" alt="">
+              <div class="homeProductInfoWrapper">
+                <span class="homeProductTitle">
+                  产品 #1
+                </span>
+                <a href="singleProduct.html" class="homePurchaseButton">
+                  (￥50.00) 购买
+                </a>
+              </div>
+            </div>
+            <div class="homeProductWrapper">
+                <img src="images/content/homeProduct-2.jpg" alt="">
+              <div class="homeProductInfoWrapper">
+                <span class="homeProductTitle">
+                  产品 #2
+                </span>
+                <a href="singleProduct.html" class="homePurchaseButton">
+                  (￥20.00) 购买
+                </a>
+              </div>
+            </div>
+            <div class="homeProductWrapper">
+                <img src="images/content/homeProduct-3.jpg" alt="">
+              <div class="homeProductInfoWrapper">
+                <span class="homeProductTitle">
+                  产品 #3
+                </span>
+                <a href="singleProduct.html" class="homePurchaseButton">
+                  (￥70.00) 购买
+                </a>
+              </div>
+            </div>
+            <div class="homeProductWrapper">
+                <img src="images/content/homeProduct-4.jpg" alt="">
+              <div class="homeProductInfoWrapper">
+                <span class="homeProductTitle">
+                  产品 #4
+                </span>
+                <a href="singleProduct.html" class="homePurchaseButton">
+                  (￥40.00) 购买
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- accordion item wrapper ends --> 
-        <!-- accordion item wrapper starts -->
-        <div class="accordionItemWrapper"> <a href="" class="accordionButton"><span class="accordionButtonIcon"></span><span class="accordionButtonTitle">下单以后多长时间能收到？</span></a>
-          <div class="accordionContentWrapper">
-            <div class="accordionContent">
-              <p>所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。</p>
+          <!-- new products end -->
+          <div class="textBreakBottom">
+          </div>
+          <!-- recently viewed products start -->
+          <h4 class="sectionTitle">
+            特色推荐:
+            <a href="portfolioTwoColumns1.html" class="sectionTitleLink">
+              更多 &raquo;
+            </a>
+          </h4>
+          <div class="homeProductsWrapper">
+            <div class="homeProductWrapper">
+                <img src="images/content/homeProduct-1.jpg" alt="">
+              <div class="homeProductInfoWrapper">
+                <span class="homeProductTitle">
+                  产品 #1
+                </span>
+                <a href="" class="homePurchaseButton">
+                  (￥50.00) 购买
+                </a>
+              </div>
+            </div>
+            <div class="homeProductWrapper">
+                <img src="images/content/homeProduct-2.jpg" alt="">
+              <div class="homeProductInfoWrapper">
+                <span class="homeProductTitle">
+                  产品 #2
+                </span>
+                <a href="singleProduct.html" class="homePurchaseButton">
+                  (￥20.00) 购买
+                </a>
+              </div>
+            </div>
+            <div class="homeProductWrapper">
+                <img src="images/content/homeProduct-3.jpg" alt="">
+              <div class="homeProductInfoWrapper">
+                <span class="homeProductTitle">
+                  产品 #1
+                </span>
+                <a href="singleProduct.html" class="homePurchaseButton">
+                  (￥50.00) 购买
+                </a>
+              </div>
+            </div>
+            <div class="homeProductWrapper">
+                <img src="images/content/homeProduct-4.jpg" alt="">
+              <div class="homeProductInfoWrapper">
+                <span class="homeProductTitle">
+                  产品 #2
+                </span>
+                <a href="singleProduct.html" class="homePurchaseButton">
+                  (￥20.00) 购买
+                </a>
+              </div>
             </div>
           </div>
+          <!-- recently viewed products end -->
+          <div class="pageBreak">
+          </div>
+          <!-- accordion wrapper starts -->
+          <div class="accordionWrapper">
+            <!-- accordion item wrapper starts -->
+            <div class="accordionItemWrapper">
+              <a href="" class="accordionButton">
+                <span class="accordionButtonIcon">
+                </span>
+                <span class="accordionButtonTitle">
+                  我如何订一个蛋糕?
+                </span>
+              </a>
+              <div class="accordionContentWrapper">
+                <div class="accordionContent">
+                  <p>
+                    所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。
+                    <br>
+                    所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- accordion item wrapper ends -->
+            <!-- accordion item wrapper starts -->
+            <div class="accordionItemWrapper">
+              <a href="" class="accordionButton">
+                <span class="accordionButtonIcon">
+                </span>
+                <span class="accordionButtonTitle">
+                  你的退款和取消政策是什么？
+                </span>
+              </a>
+              <div class="accordionContentWrapper">
+                <div class="accordionContent">
+                  <p>
+                    所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- accordion item wrapper ends -->
+            <!-- accordion item wrapper starts -->
+            <div class="accordionItemWrapper">
+              <a href="" class="accordionButton">
+                <span class="accordionButtonIcon">
+                </span>
+                <span class="accordionButtonTitle">
+                  下单以后多长时间能收到？
+                </span>
+              </a>
+              <div class="accordionContentWrapper">
+                <div class="accordionContent">
+                  <p>
+                    所有蛋糕订单可以发电子邮件给我们,这是更快和更高效的服务比面对面咨询。所有的邮件都回复在12小时内,我们的一个设计师,所以如果你已经有了一个主意你想要的,只是去我们的联系我们页面并完成表格我们很乐意给你一个报价。如果你想订货,我们需要一个完整的储备你的付款日期。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- accordion item wrapper ends -->
+          </div>
+          <!-- accordion wrapper ends -->
         </div>
-        <!-- accordion item wrapper ends --> 
+        <!-- page content wrapper ends -->
+        <div class="footerDecoration">
+        </div>
+        <!-- footer wrapper starts -->
+        <div class="footerWrapper">
+          <span class="copyright">
+            Copyright © 2015&nbsp;
+            <a href="#" target="_blank">
+              微茜糕点
+            </a>
+            &nbsp;All rights reserved.
+          </span>
+        </div>
+        <!-- footer wrapper ends -->
       </div>
-      <!-- accordion wrapper ends --> 
-      
+      <!-- page wrapper ends -->
     </div>
-    <!-- page content wrapper ends -->
-    
-    <div class="footerDecoration"></div>
-    <!-- footer wrapper starts -->
-    <div class="footerWrapper"> <span class="copyright">Copyright © 2015&nbsp;<a href="#" target="_blank">微茜糕点</a>&nbsp;All rights reserved.</span> </div>
-    <!-- footer wrapper ends --> 
-    
-  </div>
-  <!-- page wrapper ends --> 
-</div>
-<!-- website wrapper ends -->
+    <!-- website wrapper ends -->
+  </body>
 
-
-</body>
 </html>
-
