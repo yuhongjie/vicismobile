@@ -385,7 +385,7 @@ input.shoppingCartProductNumber {
 }
 input.shoppingCartCheckoutButton {
 	float: right;
-	width: 96px;
+	width: 70px;
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
@@ -397,7 +397,7 @@ input.shoppingCartCheckoutButton {
 }
 .shoppingCartEmptyButton {
 	float: left;
-	width: 70px;
+	width: 65px;
 	text-align: center;
 	color: #73CBC2;
 	text-decoration: none;

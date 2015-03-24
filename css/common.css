@@ -137,3 +137,25 @@ font-size: 18px;
 	color: #fff;
 	width: 100%;
 }
+
+
+.radioblock {
+	height: 20px;
+	position: relative;
+}
+.radioblock label {
+	position: absolute;
+	top: -3px;
+	left: 20px;
+
+}
+.l-bblock {
+	margin-bottom: 15px;
+}
+.pl15 {
+	padding-left: 25px;
+}
+#basicExample {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
