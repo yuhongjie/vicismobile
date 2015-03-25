@@ -14,7 +14,7 @@ a, p > a {
 	background-image: url(../../images/skins/pink/headerFooterDecoBg.png);
 }
 .sliderControl {
-	background-color: #E67A92;
+	background-color: rgba(230,122,146,0.5);
 }
 .sectionTitleLink {
 	color: #E67A92;

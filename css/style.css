@@ -429,15 +429,15 @@ input.buttonCommenButton {
 	height: 53px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 36px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .mainLogo > img {
 	width: 104px;
 	height: 53px;
 }
 .shopSearchFormWrapper {
-	margin-bottom: 36px;
+	margin-bottom: 0px;
 }
 .shopSearchForm {
 }
@@ -601,6 +601,10 @@ a.nivo-prevNav:hover {
 	margin-left: -36px;
 }
 .homeProductWrapper > img {
+	width: 100%;
+	height: auto;
+}
+.homeProductWrapper > a > img {
 	width: 100%;
 	height: auto;
 }
